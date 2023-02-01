@@ -68,8 +68,8 @@ def main():
 
     default_date = datetime.datetime.now() + datetime.timedelta(days=-7)
     parser = argparse.ArgumentParser()
-    parser.add_argument("--date", type=str, default=default_date)
-    parser.add_argument("--save_type", type=str, default="firehose")
+    parser.add_argument("--date", type=str, default=default_date, help="Data limite para busca (mais antiga): YYYY-MM-DD")
+    parser.add_argument("--save_type", type=str, default="firehose", choices=["firehose", "spark"], help="Modo de salvar os dados")
     args = parser.parse_args()
 
     process_new_until_date(args.date, args.save_type)
