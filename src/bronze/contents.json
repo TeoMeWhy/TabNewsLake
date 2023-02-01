@@ -1,0 +1,89 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "id",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "owner_id",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "parent_id",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "slug",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "title",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "status",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "source_url",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "created_at",
+            "nullable": true,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "updated_at",
+            "nullable": true,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "published_at",
+            "nullable": true,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "deleted_at",
+            "nullable": true,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "owner_username",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "tabcoins",
+            "nullable": true,
+            "type": "integer"
+        },
+        {
+            "metadata": {},
+            "name": "children_deep_count",
+            "nullable": true,
+            "type": "integer"
+        }
+    ],
+    "type": "struct"
+}
