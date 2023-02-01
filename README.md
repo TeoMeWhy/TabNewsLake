@@ -4,6 +4,9 @@ Consumo da API pública do TabNews para criação de um Datalake.
 - [Sobre](#sobre)
 - [Etapas](#etapas)
     - [1. Ingestão](#1-ingestão)
+    - [2. Consumo e criação de tabela em Bronze](#2-consumo-e-criação-de-tabela-em-bronze)
+- [Próximos passos](#próximos-passos)
+
 
 <img src="https://github.com/TeoMeWhy/TabNewsLake/blob/main/img/tabnewslake_arch.png" alt="Arquitetura TabNews Lake" width="650">
 
