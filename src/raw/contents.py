@@ -26,9 +26,13 @@ def save_with_spark(data):
 
 def save_with_firehose(data, firehose_client):
 
+    data = [[i] for i in data]
+
+    d = json.dumps(data)[1:-1].replace("], [", "]\n[") + "\n"
+
     firehose_client.put_record(
         DeliveryStreamName="tabnews-contents",
-        Record={"Data": json.dumps(data)},
+        Record={"Data": d},
     )
 
     return None
@@ -69,6 +73,7 @@ def main():
     args = parser.parse_args()
 
     process_new_until_date(args.date, args.save_type)
+
 
 if __name__ == "__main__":
     main()
