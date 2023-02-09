@@ -130,5 +130,9 @@ Podemos fazer o mesmo para TabCoins? Está na mão!
 
 <img src="https://github.com/TeoMeWhy/TabNewsLake/blob/main/img/tabcoins.png" alt="Top 10 usuários de tabcoins em posts e seus respectivos números" width="650">
 
+E porque não um gráfico de corrida de barras?
+
+
+<img src="https://github.com/TeoMeWhy/TabNewsLake/blob/main/img/posts_race.gif" alt="Top 10 usuários de tabcoins em posts e seus respectivos números" width="650">
 
 Por enquanto é isso.
