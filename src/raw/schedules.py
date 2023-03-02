@@ -25,13 +25,21 @@ def main():
         help="Modo de savar os dados coletados.",
     )
     parser.add_argument(
-        "--delay", default=7, help="Tamanho do delay em dias para janela de coleta."
+        "--delay",
+        default=7,
+        help="Tamanho do delay em dias para janela de coleta.",
+        type=int,
     )
     parser.add_argument(
-        "--interval", default=30, help="Intervalo de tempo para nova coleta de dados."
+        "--interval",
+        default=30,
+        help="Intervalo de tempo para nova coleta de dados.",
+        type=int,
     )
     parser.add_argument(
-        "--history", action="store_true", help="Flag para agendar full-load tambem."
+        "--history",
+        action="store_true",
+        help="Flag para agendar full-load tambem.",
     )
 
     args = parser.parse_args()
